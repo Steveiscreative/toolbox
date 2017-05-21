@@ -1,0 +1,30 @@
+{
+  "name": "webpack-website-starter",
+  "version": "1.0.0",
+  "description": "Webpack 2 setup for building websites.",
+  "main": "main.js",
+  "repository": "https://github.com/Steveiscreative/webpack-website-starter",
+  "author": "Steve Stephenson",
+  "license": "MIT",
+  "scripts": {
+    "serve": "NODE_ENV=development webpack-dev-server --open",
+    "build": "NODE_ENV=production webpack -p"
+  },
+  "dependencies": {
+    "autoprefixer": "^7.1.1",
+    "babel-core": "^6.24.1",
+    "babel-loader": "^7.0.0",
+    "babel-preset-env": "^1.4.0",
+    "css-loader": "^0.28.1",
+    "extract-text-webpack-plugin": "^2.1.0",
+    "file-loader": "^0.11.1",
+    "html-webpack-plugin": "^2.28.0",
+    "node-sass": "^4.5.3",
+    "postcss-loader": "^2.0.5",
+    "sass-loader": "^6.0.5",
+    "style-loader": "^0.17.0",
+    "svg-sprite-loader": "^2.1.0",
+    "webpack": "^2.5.1",
+    "webpack-dev-server": "^2.4.5"
+  }
+}
