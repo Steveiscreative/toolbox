@@ -9,7 +9,15 @@
 </head>
 <body>
 
-<p>Ello' Govna</p>
+<%= require('html-loader!./assets/html/partials/header.html') %>
+
+<main role="main" class="">
+  <div class="container">
+    <h1>Ello' Govna</h1>
+  </div>
+</main>
+
+<%= require('html-loader!./assets/html/partials/footer.html') %>
 
 </body>
 </html>
