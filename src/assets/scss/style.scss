@@ -1,5 +1,8 @@
-body {
-  background: lightgray;
-  display:block;
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-}
+// Variables
+@import "variables";
+
+// Helpers
+@import "helpers/mixins";
+@import "helpers/functions";
+
+

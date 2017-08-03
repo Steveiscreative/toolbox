@@ -1,0 +1,28 @@
+// Colors
+// -----------------------------------------
+
+// Breakpoints
+// -----------------------------------------
+$breakpoints: (
+	("bp1", "(min-width: 100px)"),
+  ("bp2", "(min-width: 200px)"),
+  ("bp3", "(min-width: 300px)"),
+  ("bp4", "(min-width: 400px)"),
+  ("bp5", "(min-width: 500px)"),
+  ("bp6", "(min-width: 600px)"),
+  ("bp7", "(min-width: 700px)"),
+  ("bp8", "(min-width: 800px)"),
+  ("bp9", "(min-width: 9000px)"),
+  ("bp10", "(min-width: 1000px)"),
+  ("bp11", "(min-width: 1100px)"),
+  ("bp12", "(min-width: 1200px)")
+);
+
+// Fonts 
+// -----------------------------------------
+
+// Sizes
+$base-font-size: 16px;
+
+// Families
+// $ff-helvetica: "";

@@ -1,0 +1,12 @@
+
+// Media Query Mixin
+// use @include media('bp5') {}
+@mixin media($breakpoint) {
+  @each $breakpoint-name, $breakpoint-query in $breakpoints {
+    @if $breakpoint == $breakpoint-name {
+      @media #{$breakpoint-query} {
+        @content;
+      }
+    }
+  }
+}
